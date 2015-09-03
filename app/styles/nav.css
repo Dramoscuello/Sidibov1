@@ -33,7 +33,7 @@
   line-height: 1;
 }
 #cssmenu > ul {
-  background: #3db2e1;
+  background: #121B21;
     float: right;
 }
 #cssmenu > ul > li {
@@ -55,12 +55,15 @@
 }
 #cssmenu > ul > li > a {
   padding: 18px 20px;
-  font-size: 14px;
+    font-family: Helvetica,Arial,sans-serif;
+        font-size: 17px;
+    font-weight: 200;
+    letter-spacing: 1px;
   color: #ffffff;
   letter-spacing: 1px;
   text-transform: uppercase;
   text-decoration: none;
-  background: #3db2e1;
+  background: #121B21;
   -webkit-transition: all .3s;
   -moz-transition: all .3s;
   -o-transition: all .3s;
@@ -95,7 +98,7 @@
   height: 100%;
   padding: 16px 20px;
   color: #dff2fa;
-  background: #19799f;
+  background: #121B21;
   content: attr(data-title);
   -webkit-transition: background 0.3s;
   -moz-transition: background 0.3s;
@@ -110,7 +113,7 @@
 }
 #cssmenu > ul > li:hover > a::before,
 #cssmenu > ul > li > a:hover::before {
-  background: #3db2e1;
+  background: #121B21;
 }
 #cssmenu.small-screen {
   width: 100%;

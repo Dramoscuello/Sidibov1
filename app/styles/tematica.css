@@ -1,0 +1,45 @@
+.logotematica{
+    width: 90%;
+    position: relative;
+    top: -40px;
+    margin-bottom: 0;
+}
+.contenido{
+    background-color: #EDF3F3;
+}
+@font-face {
+    font-family: "FuturaBT-Bold";
+    font-style: normal;
+    font-weight: bold;
+    src: url(../fonts/ufonts.com_futurabt-bold-opentype.otf);
+    
+}
+
+.sub_tematica{
+    font-family: "FuturaBT-Bold";
+    color: black;
+    font-size: 42px;
+    text-transform: uppercase;
+    letter-spacing: -0.07em;
+    text-align: center;
+    margin-top: 0;
+}
+.nav_tematica{
+    list-style: none;
+}
+.nav_tematica li{
+    text-align: center;
+    display: block;
+}
+.nav_tematica li a{
+    color: black;
+    width: 100%;
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 16px;
+}
+.nav_tematica li a:hover{
+    background-color: #EDF3F3;
+    text-decoration: none;
+}

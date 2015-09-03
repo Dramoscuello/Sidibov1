@@ -3,7 +3,7 @@
     margin: 0;
 }
 body{
-    background-color: #F5F6F6;
+    background-color: white;
 }
 @font-face {
     font-family: "FuturaBT-Bold";
@@ -12,15 +12,27 @@ body{
     src: url(../fonts/ufonts.com_futurabt-bold-opentype.otf);
     
 }
+
 header{
-    background-color: #3DB2E1;
+    background-color: #121B21;
 }
 h1{
+    margin-top: 90px;
     font-family: "FuturaBT-Bold", Impact, sans-serif;;
-    font-size: 61px;
+    font-size: 90px;
+/*    color: #653301;*/
     color: white;
     line-height: 61px;
     word-spacing: 0.1em;
+    letter-spacing: -0.07em;
+    text-transform: uppercase;
+    
+}
+.sub{
+    font-family: "FuturaBT-Bold";
+/*    color: #653301;*/
+    color: white;
+    font-size: 42px;
     letter-spacing: -0.07em;
     
 }
@@ -29,13 +41,66 @@ h1{
     color: white;
     font-size: 12px;
     text-transform: uppercase;
+    font-family: Helvetica,Arial,sans-serif;
    display: block;
     width: 80px;
-    margin-top: 7px;
-    padding: 6px;
+    margin-top: 12px;
+    padding: 4px;
     border: 1px solid white;
 }
 .users:hover{
     text-decoration: none;
     color: white;
+}
+#logo{
+    position: relative;
+    top: -50px;
+    z-index: 3;
+}
+#main{
+    background-color: #00AFC4;
+}
+#items{
+    text-align: center;
+    margin: 20px 0px;
+}
+footer {
+    clear: both;
+    background: #edf3f3 url(../images/lattice-5e08b610.gif) top repeat-x;
+    padding: 43px 0;
+}
+.nav_footer{
+    list-style: none;
+    text-align: center;
+}
+.nav_footer li{
+    display: inline;
+    margin: 0px 20px;
+}
+.nav_footer li a{
+    text-decoration: none;
+        color: #535b60;
+    font-weight: bold;
+}
+.copy{
+    color: #535b60;    
+    margin-top: 20px;
+    text-align: center;
+    
+}
+.copy h6{
+    font-size: 10px;
+    font-weight: bold;
+}
+.goTop{
+    display: none;
+    cursor: pointer;
+    background: rgba(2, 73, 89,0);
+    padding: 10px;
+    font-size: 20px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    color: black;
+    z-index: 1001;
 }
