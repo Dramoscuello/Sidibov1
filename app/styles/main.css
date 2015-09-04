@@ -53,9 +53,14 @@ h1{
     color: white;
 }
 #logo{
+    display:block;
+    width:370px;
     position: relative;
-    top: -50px;
+    height:370px;
+    top:-50px;
     z-index: 3;
+    background-image: url(../images/logo.png);
+    background-size: contain;
 }
 #main{
     background-color: #00AFC4;
@@ -63,6 +68,23 @@ h1{
 #items{
     text-align: center;
     margin: 20px 0px;
+}
+.img{
+    display:block;
+    width:168px;
+    height:143px;
+}
+.teoria{
+    background-image: url(../images/teoria.png);
+}
+.foro{
+    background-image: url(../images/foro.png);
+}
+.evaluacion{
+    background-image: url(../images/evaluacion.png);
+}
+.porque{
+    text-align: center;
 }
 footer {
     clear: both;
@@ -74,13 +96,24 @@ footer {
     text-align: center;
 }
 .nav_footer li{
-    display: inline;
+   display:inline-block;
     margin: 0px 20px;
 }
 .nav_footer li a{
     text-decoration: none;
         color: #535b60;
     font-weight: bold;
+}
+.logo_footer{
+    text-align: center;
+    display:block;
+    width:50px;
+    height:50px;
+    background-image: url(../images/logo.png);
+    background-size: contain;
+}
+.nav_footer li, .logo_footer{
+    vertical-align: middle;
 }
 .copy{
     color: #535b60;    

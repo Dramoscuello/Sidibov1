@@ -1,11 +1,13 @@
 <div class="container">
     <div class="row">
         <div class="col-md-3">
-            <a href="#/"><img src="../images/logo.png" class="logotematica"></a>
-            <h2 class="sub_tematica">sidibov</h2>
+            <a href="#/" class="logotematica"></a>
+            <div class="apartado_tematica">
+                <h2 class="sub_tematica">sidibov</h2>
                 <ul class="nav_tematica" ng-repeat="val in content">
                      <li class="item"><a href="{{val.link}}">{{val.titulo}}</a></li>
                 </ul>
+            </div>
         </div>
         
         <div class="col-md-9 contenido"><h3>Introducción</h3>Id quid exercitation. Nulla arbitror iis pariatur ne incurreret philosophari si 

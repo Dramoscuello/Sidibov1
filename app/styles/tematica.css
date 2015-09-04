@@ -1,8 +1,12 @@
 .logotematica{
-    width: 90%;
+    width: 250px;
+    height:250px;
+    background-size: contain;
+    display:block;
     position: relative;
-    top: -40px;
+    top: -50px;
     margin-bottom: 0;
+    background-image: url(../images/logo.png);
 }
 .contenido{
     background-color: #EDF3F3;
