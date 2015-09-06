@@ -106,6 +106,21 @@ angular
         controller: 'EvaluacionCtrl',
         controllerAs: 'evaluacion'
       })
+      .when('/tematica/intestino_delgado', {
+        templateUrl: 'views/intestinodelgado.html',
+        controller: 'IntestinodelgadoCtrl',
+        controllerAs: 'intestinodelgado'
+      })
+      .when('/tematica/intestino_grueso', {
+        templateUrl: 'views/intestinogrueso.html',
+        controller: 'IntestinogruesoCtrl',
+        controllerAs: 'intestinogrueso'
+      })
+      .when('/tematica/enfermedades', {
+        templateUrl: 'views/enfermedades.html',
+        controller: 'EnfermedadesCtrl',
+        controllerAs: 'enfermedades'
+      })
       .otherwise({
         redirectTo: '/'
       });
