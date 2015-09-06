@@ -16,5 +16,16 @@ $(document).ready(function(){
         }
     });
     //scroll top
+    //contenido fijo
+    //var altura = $('.contenido').offset().top; 
+    //alert("altura");   
+    //$(window).on('scroll', function(){
+     //   if($(window).scrollTop() > altura){
 
+            //$('.navegacion').addClass('fixed');
+      //  }else{
+            //$('.navegacion').removeClass('fixed');
+        //}
+    //});
+    //contenido fijo
 });
